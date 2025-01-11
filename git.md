@@ -105,3 +105,8 @@ Deletes all the untracked `files` and `directories` from the local repository.
 
 > git checkout -b `branch-name`
 
+### Merge feature branch changes to master branch
+
+> git checkout -b master
+> git merge feature-a
+
