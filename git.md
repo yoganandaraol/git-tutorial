@@ -73,3 +73,9 @@ Unlike reset, revert includes the change-log to the commit history
 All the staged changes amend to previous commit. and `--no-edit` let's you to emend the commit without changing the commit message.
 
 <hr />
+
+
+### Checkout branch
+
+> git checkout -b `branch-name`
+
