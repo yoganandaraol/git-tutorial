@@ -18,9 +18,9 @@ Also let you know if any untraked and committed files/changes.
 
 ### Stage files
 
-> git add <filename>
+> git add `filename`
 
-Adds the specified filename to the committed list.
+Adds the specified `filename` to the committed list.
 
 > git add . 
 
@@ -73,3 +73,30 @@ Unlike reset, revert includes the change-log to the commit history
 All the staged changes amend to previous commit. and `--no-edit` let's you to emend the commit without changing the commit message.
 
 <hr />
+
+### Branching
+
+> git stash
+
+Saves all untracked changes 
+
+> git stash --list
+
+Lists all the stashed versions
+
+> git stash `pop`
+
+Restores the repo with the latest stashed changes. and `removes` the stash from stash list
+
+> git stash `apply`
+
+Restores the repo with the latest stashed changes. and `retains` the stash from stash list
+
+> git clean `-f`
+
+Deletes all the untracked `files` from the local repository.
+
+> git clean `-fd`
+
+Deletes all the untracked `files` and `directories` from the local repository.
+
