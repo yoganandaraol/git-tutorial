@@ -124,3 +124,33 @@ List all branches
 > git branch -D `branch-name`
 
 Delete the branch named `branch-name`
+
+<hr />
+
+### Fetch and merge remote changes
+
+> git fetch
+
+fetches the changes from remote.
+It will not merge the fetched changes into current branch
+
+> git merge origin/master
+
+merges the fetched changes from remote branch into local repository
+
+#### fetching and merging in one go
+
+> git pull
+
+it fecthes and merges the changes from remote into local repository
+
+It will fetch the branch from based on the configuration detailed in following command.
+
+> git remote -v
+
+```bash
+> git remote -v
+
+origin	git@github.com:yoganandaraol/git-tutorial.git (fetch)<br />
+origin	git@github.com:yoganandaraol/git-tutorial.git (push)
+```
