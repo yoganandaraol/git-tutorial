@@ -1,1 +1,3 @@
-Some text changes in a.txt
+Some text changes in a.txt.
+
+There is more text added..
